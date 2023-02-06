@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/loginfondo">
+
+
+    <ImageView
+        android:id="@+id/IMGLogoInsti"
+        android:layout_width="241dp"
+        android:layout_height="179dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.028"
+        app:srcCompat="@drawable/loginimagen"
+        tools:srcCompat="@drawable/loginimagen" />
+
+    <TextView
+        android:id="@+id/TVolvidasteContrasena"
+        android:layout_width="357dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="32dp"
+        android:gravity="center"
+        android:text="¿Olvidaste tu contraseña?"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/IMGLogoInsti" />
+
+    <EditText
+        android:id="@+id/TBCorreoRecuperarContrasena"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:background="@drawable/borde_edittext"
+        android:drawableStart="@drawable/ic_mail_24"
+        android:drawablePadding="12dp"
+        android:hint="Correo"
+        android:inputType="textEmailAddress"
+        android:padding="10dp"
+        android:textColor="#FFFFFF"
+        android:textColorHint="#FFFFFF"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/TVolvidasteContrasena" />
+
+    <Button
+        android:id="@+id/BRecordarContrasena"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_marginTop="36dp"
+        android:background="@drawable/boton_neon"
+        android:text="Recordar Contraseña"
+        android:textColor="#FFFFFF"
+        android:textStyle="italic"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/TBCorreoRecuperarContrasena" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

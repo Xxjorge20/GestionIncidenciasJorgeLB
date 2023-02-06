@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">GestionIncidenciasJorgeLB</string>
+    <string name="title_activity_fullscreen">FullscreenActivity</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="nav_home">Casa</string>
+    <string name="nav_gallery">Galeria</string>
+    <string name="nav_camara">Camara</string>
+    <string name="nav_mensajes">Mensajes</string>
+
+    <string name="open_drawer">Abierto</string>
+    <string name="close_drawer">Cerrado</string>
+
+
+</resources>
